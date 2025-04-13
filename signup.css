@@ -1,0 +1,76 @@
+body.login-body, body.signup-body {
+    background-color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-box, .signup-box {
+    background-color: #0a51ae;
+    color: white;
+    padding: 35px 25px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-box h2, .signup-box h2 {
+    margin-bottom: 10px;
+}
+
+.login-box form,
+.signup-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.login-box input,
+.signup-box input,
+.signup-box select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    color: #0a51ae;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+    width: 100%;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%230a51ae' d='M2 0L0 2h4L2 0zM2 5l2-2H0l2 2z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 10px;
+    padding-right: 30px; /* for dropdown arrow space */
+    margin-bottom: 12px; /* This adds spacing between inputs */
+}
+
+.login-box button,
+.signup-box button {
+    background-color: white;
+    color: #0a51ae;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.login-box a,
+.signup-box a {
+    color: white;
+    text-decoration: underline;
+}
